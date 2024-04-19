@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: #124b66 !important;
+  height: 100%;
 }
 
 .App-logo {
@@ -35,4 +37,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.grid{
+  width: 100%;
 }
