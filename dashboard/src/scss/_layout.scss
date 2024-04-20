@@ -1,0 +1,46 @@
+.main_breadcrumb {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    background: transparent !important;
+    border: none;
+
+    svg {
+        width: 10px;
+        height: 10px;
+        color: #fff;
+    }
+}
+
+.p-breadcrumb .p-breadcrumb-list li .p-menuitem-link .p-menuitem-text {
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .page_name {
+        padding: 0;
+        margin: 0 25px;
+    }
+
+    .navbar_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            margin: 0 10px;
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+            }
+        }
+
+        svg {
+            margin: 0 10px;
+        }
+    }
+}
