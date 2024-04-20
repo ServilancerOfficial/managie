@@ -1,0 +1,48 @@
+@import "variables";
+
+.main_breadcrumb {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    background: $main-breadcrumb-background-color !important;
+    border: none;
+
+    svg {
+        width: 10px;
+        height: 10px;
+        color: $main-breadcrumb-svg-color;
+    }
+}
+
+.p-breadcrumb .p-breadcrumb-list li .p-menuitem-link .p-menuitem-text {
+    color: $main-breadcrumb-text-color;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .page_name {
+        padding: 0;
+        margin: 0 25px;
+    }
+
+    .navbar_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        input {
+            margin: 0 10px;
+
+            &:focus {
+                box-shadow: none;
+                border: none;
+            }
+        }
+
+        svg {
+            margin: 0 10px;
+        }
+    }
+}
