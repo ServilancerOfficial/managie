@@ -1,19 +1,21 @@
+@import "variables";
+
 .main_breadcrumb {
     font-size: 10px;
     display: flex;
     align-items: center;
-    background: transparent !important;
+    background: $main-breadcrumb-background-color !important;
     border: none;
 
     svg {
         width: 10px;
         height: 10px;
-        color: #fff;
+        color: $main-breadcrumb-svg-color;
     }
 }
 
 .p-breadcrumb .p-breadcrumb-list li .p-menuitem-link .p-menuitem-text {
-    color: #fff;
+    color: $main-breadcrumb-text-color;
 }
 
 .navbar {
